@@ -6,9 +6,9 @@ var POST   = 'POST';
 var DELETE = 'DELETE';
 
 var handlers = {
-  '/address': require('./address'),
-  '/currency': require('./currency'),
-  '/transaction': require('./transaction')
+  '/address': require('./endpoints/address'),
+  '/currency': require('./endpoints/currency'),
+  '/transaction': require('./endpoints/transaction')
 };
 
 module.exports = {

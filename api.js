@@ -6,6 +6,7 @@ var cors = require('cors');
 var a127 = require('a127-magic');
 var express = require('express');
 var api = express();
+var db = require('./api/controllers/database').connect();
 
 module.exports = api;
 

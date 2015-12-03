@@ -46,7 +46,7 @@ paths:
   /transaction:
     x-swagger-router-controller: endpoints
     post:
-      description: Creates a new transaction request.
+      description: Creates a transaction request.
       operationId: transaction.post
       responses:
         "200":
